@@ -210,7 +210,7 @@ comp = eng.calc_components(pwr['T1'], pwr['Wm'], pwr['Wb'])
 cons = eng.calc_construction_data(pwr['T1'], pwr['PIW'])
 
 # --- DASHBOARD ---
-st.markdown("<div class='main-header'>PetroStream™ Engineering Suite</div>", unsafe_allow_html=True)
+st.markdown("<div class='main-header'>Belt Conveyor Calculation</div>", unsafe_allow_html=True)
 st.markdown("<div class='sub-header'>Sistem Perhitungan Conveyor Terintegrasi (CEMA 6th Ed.) | Khusus Cangun PKG</div>", unsafe_allow_html=True)
 
 # STATUS CHECK
