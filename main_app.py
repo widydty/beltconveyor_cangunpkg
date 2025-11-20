@@ -142,7 +142,7 @@ class TitanEngine:
 class EngineeringReport(FPDF):
     def header(self):
         self.set_font('Arial', 'B', 14)
-        self.cell(0, 10, 'PETROSTREAM ENGINEERING REPORT', 0, 1, 'C')
+        self.cell(0, 10, 'BELT CONVEYOR CALCULATION REPORT', 0, 1, 'C')
         self.set_font('Arial', 'I', 10)
         self.cell(0, 10, f'Generated on: {datetime.now().strftime("%Y-%m-%d %H:%M")}', 0, 1, 'C')
         self.line(10, 30, 200, 30)
