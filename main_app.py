@@ -10,7 +10,7 @@ from datetime import datetime
 
 # --- 1. KONFIGURASI SYSTEM & STYLE ---
 st.set_page_config(
-    page_title="PetroStream™ Engineering Suite",
+    page_title="Belt Conveyor Calculation",
     page_icon="🏭",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -211,7 +211,7 @@ cons = eng.calc_construction_data(pwr['T1'], pwr['PIW'])
 
 # --- DASHBOARD ---
 st.markdown("<div class='main-header'>PetroStream™ Engineering Suite</div>", unsafe_allow_html=True)
-st.markdown("<div class='sub-header'>Sistem Perhitungan Conveyor Terintegrasi (CEMA 6th Ed.) | Khusus PT Petrokimia Gresik</div>", unsafe_allow_html=True)
+st.markdown("<div class='sub-header'>Sistem Perhitungan Conveyor Terintegrasi (CEMA 6th Ed.) | Khusus Cangun PKG</div>", unsafe_allow_html=True)
 
 # STATUS CHECK
 fill = geo['load_pct']
